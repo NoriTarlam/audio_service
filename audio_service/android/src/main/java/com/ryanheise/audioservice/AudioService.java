@@ -826,6 +826,9 @@ public class AudioService extends MediaBrowserServiceCompat {
 
     @Override
     public BrowserRoot onGetRoot(String clientPackageName, int clientUid, Bundle rootHints) {
+
+        Log.d("Rakuradi2_Log", "TEST onGetRoot")
+        
         Boolean isRecentRequest = rootHints == null ? null : (Boolean)rootHints.getBoolean(BrowserRoot.EXTRA_RECENT);
         if (isRecentRequest == null) isRecentRequest = false;
         Bundle extras = config.getBrowsableRootExtras();
