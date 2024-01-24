@@ -844,19 +844,11 @@ public class AudioService extends MediaBrowserServiceCompat {
 
     @Override
     public void onLoadChildren(final String parentMediaId, final Result<List<MediaBrowserCompat.MediaItem>> result, Bundle options) {
-        
-        Log.d("Rakuradi2_Log", "TEST onLoadChildren");
-        result.sendResult(new ArrayList<>());
-        return;
-
-        
-        /*
         if (listener == null) {
             result.sendResult(new ArrayList<>());
             return;
         }
         listener.onLoadChildren(parentMediaId, result, options);
-        */
     }
 
     @Override
