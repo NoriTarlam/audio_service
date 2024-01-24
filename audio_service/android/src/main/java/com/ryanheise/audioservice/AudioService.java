@@ -827,7 +827,7 @@ public class AudioService extends MediaBrowserServiceCompat {
     @Override
     public BrowserRoot onGetRoot(String clientPackageName, int clientUid, Bundle rootHints) {
 
-        Log.d("Rakuradi2_Log", "TEST onGetRoot")
+        Log.d("Rakuradi2_Log", "TEST onGetRoot");
         
         Boolean isRecentRequest = rootHints == null ? null : (Boolean)rootHints.getBoolean(BrowserRoot.EXTRA_RECENT);
         if (isRecentRequest == null) isRecentRequest = false;
@@ -847,7 +847,7 @@ public class AudioService extends MediaBrowserServiceCompat {
     @Override
     public void onLoadChildren(final String parentMediaId, final Result<List<MediaBrowserCompat.MediaItem>> result, Bundle options) {
         
-        Log.d("Rakuradi2_Log", "TEST onLoadChildren")
+        Log.d("Rakuradi2_Log", "TEST onLoadChildren");
         /*
         if (listener == null) {
             result.sendResult(new ArrayList<>());
