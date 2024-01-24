@@ -48,7 +48,7 @@ import java.util.Map;
 
 import io.flutter.embedding.engine.FlutterEngine;
 
-public class AudioService extends MediaBrowserServiceCompat {
+public class AudioServiceBase extends MediaBrowserServiceCompat {
     public static final String CONTENT_STYLE_SUPPORTED = "android.media.browse.CONTENT_STYLE_SUPPORTED";
     public static final String CONTENT_STYLE_PLAYABLE_HINT = "android.media.browse.CONTENT_STYLE_PLAYABLE_HINT";
     public static final String CONTENT_STYLE_BROWSABLE_HINT = "android.media.browse.CONTENT_STYLE_BROWSABLE_HINT";
