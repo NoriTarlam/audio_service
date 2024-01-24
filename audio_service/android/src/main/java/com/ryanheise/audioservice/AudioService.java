@@ -26,6 +26,7 @@ import android.support.v4.media.session.MediaSessionCompat;
 import android.support.v4.media.session.PlaybackStateCompat;
 import android.util.LruCache;
 import android.util.Size;
+import android.util.Log;
 import android.view.KeyEvent;
 
 import androidx.annotation.RequiresApi;
